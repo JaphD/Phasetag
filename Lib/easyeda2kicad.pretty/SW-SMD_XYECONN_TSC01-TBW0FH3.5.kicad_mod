@@ -1,0 +1,222 @@
+(footprint "SW-SMD_XYECONN_TSC01-TBW0FH3.5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.725 0)
+		(layer "F.SilkS")
+		(uuid "e723817c-95e5-4545-83cf-eb75e51ece2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW-SMD_XYECONN_TSC01-TBW0FH3.5"
+		(at 0 4.725 0)
+		(layer "F.Fab")
+		(uuid "21632de5-eece-41be-a963-0e8fb0df54f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c1656f1-69b5-4ec0-aeda-8dc98f5bbd1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bf0399d-f1ac-4c61-83b4-2cc092843732")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C22362977"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cca6ea91-228b-41b5-9593-d3723a49cd62")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.32 -1.56)
+		(end 2.32 -1.56)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a3bb2f9-a7fd-4a43-9325-2283d9f95e0f")
+	)
+	(fp_line
+		(start -2.29 0.08)
+		(end -2.29 0.67)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9c6d60b-7494-4c2f-9596-a70b45d83fa5")
+	)
+	(fp_line
+		(start -2.29 0.67)
+		(end -2.15 0.67)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ba5fe32-422b-4d8a-a57f-c7934d8adebf")
+	)
+	(fp_line
+		(start -1.2 0.67)
+		(end -0.95 0.67)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f0ccbe8-12fb-41a0-acc3-5c20b91ffcbf")
+	)
+	(fp_line
+		(start -0.95 -2.82)
+		(end -0.95 -1.56)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42478db4-9726-4566-a003-adf0a5fb8d62")
+	)
+	(fp_line
+		(start -0.95 -2.82)
+		(end 0.93 -2.82)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c253b8f-bb3b-4b98-a6bb-3f26e2bc2840")
+	)
+	(fp_line
+		(start 0.93 -2.82)
+		(end 0.93 -1.56)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c8ac2ea-a97b-431e-83d7-d25ad5851c38")
+	)
+	(fp_line
+		(start 0.95 0.67)
+		(end 1.2 0.67)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18144310-2b2d-4b8b-a9ff-07f043c2a16c")
+	)
+	(fp_line
+		(start 2.15 0.67)
+		(end 2.29 0.67)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3257372-8a91-40a6-80f9-c84c41a24e28")
+	)
+	(fp_line
+		(start 2.29 0.67)
+		(end 2.29 0.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3205b4c5-2735-4b2e-a9d6-e4a4db8fa319")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "95c3159d-7cc4-47b9-90f6-f7e038350f62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.67 0.73)
+		(size 0.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e729852d-e9d5-4813-b0fd-6182e37dbc1e")
+	)
+	(pad "2" smd rect
+		(at 1.68 0.73)
+		(size 0.75 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f0501475-8f4b-4e86-8766-03ea3609d859")
+	)
+	(pad "3" thru_hole oval
+		(at -2.23 -0.73)
+		(size 0.9 1.4)
+		(drill oval 0.500024 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d9d286b1-55ee-4777-91f9-0baf714d25b2")
+	)
+	(pad "3" smd rect
+		(at 0 0.57)
+		(size 1.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3d2a4f86-e8a7-498e-95b7-e69f26c8b9db")
+	)
+	(pad "3" thru_hole oval
+		(at 2.23 -0.73)
+		(size 0.9 1.4)
+		(drill oval 0.500024 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2fe70844-cb92-4852-aa4b-cf30ce8adff4")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Lib/easyeda2kicad.3dshapes/SW-SMD_XYECONN_TSC01-TBW0FH3.5.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

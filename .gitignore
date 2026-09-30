@@ -1,0 +1,49 @@
+# KiCad local settings, locks, autosaves, caches, and backups
+*.kicad_prl
+~*.lck
+_autosave-*
+\#auto_saved_files\#
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+*-backups/
+*.000
+*.bak
+*.bck
+*.sch-bak
+*.pcb-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*~
+
+# Generated netlists, autorouter exchanges, and BOM exports
+*.net
+*.dsn
+*.ses
+*.xml
+*.csv
+
+# Local reference downloads, working notes, and temporary review artifacts
+/Ref/
+/docs/
+/tmp/
+/.history/
+*.md
+*.tmp
+*.temp
+
+# Generated fabrication / plotting output directories
+/gerbers/
+/Gerbers/
+/plots/
+/output/
+/exports/
+
+# Operating-system metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Keep design sources and project libraries trackable:
+# *.kicad_pro, *.kicad_sch, *.kicad_pcb, *.kicad_sym, *.kicad_mod,
+# sym-lib-table, fp-lib-table, and library STEP/WRL models.

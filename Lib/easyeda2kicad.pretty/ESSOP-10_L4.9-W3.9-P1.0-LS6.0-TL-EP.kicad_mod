@@ -1,0 +1,329 @@
+(footprint "ESSOP-10_L4.9-W3.9-P1.0-LS6.0-TL-EP"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7 0)
+		(layer "F.SilkS")
+		(uuid "23c49ada-b346-41ad-a2e9-6a57c4f44593")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ESSOP-10_L4.9-W3.9-P1.0-LS6.0-TL-EP"
+		(at 0 7 0)
+		(layer "F.Fab")
+		(uuid "312ab6ed-625f-4007-9613-c7fbd3afb0b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41990668-b7d3-46ea-862e-c870651fd5cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32b5f71f-2464-489f-ad51-0cbb4b4d7ad0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C42459160"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7370a76e-ddff-48fd-b1fd-fa9d74a68315")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -1.95)
+		(end 2.5 -1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec252f6c-daeb-4989-8b6a-00acefea75ac")
+	)
+	(fp_line
+		(start -2.5 -0.82)
+		(end -2.5 -1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a8010c6-adaa-41b9-a781-f3c88e7e4320")
+	)
+	(fp_line
+		(start -2.5 -0.58)
+		(end -2.5 -0.82)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c9fb85f-2a94-4e06-bc25-e483432b622a")
+	)
+	(fp_line
+		(start -2.5 0.48)
+		(end -2.4 0.48)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17b893ea-a2ea-4bcc-b85a-1951f66e951f")
+	)
+	(fp_line
+		(start -2.5 1.95)
+		(end -2.5 0.48)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c442d5ff-4706-4cbb-9d61-e3d9f82c1451")
+	)
+	(fp_line
+		(start -2.5 1.95)
+		(end 2.5 1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "710bd7bc-92ab-452f-bbb2-b54d24fc27f2")
+	)
+	(fp_line
+		(start -2.46 -0.54)
+		(end -2.5 -0.58)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b629bde-b4bb-4f9a-ac13-c05f0715f909")
+	)
+	(fp_line
+		(start 2.5 1.95)
+		(end 2.5 -1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06b5755d-3c90-48f4-acab-1e9e5e1378ca")
+	)
+	(fp_arc
+		(start -2.46 -0.54)
+		(mid -2.062321 -0.391661)
+		(end -1.920751 0.008478)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "65cd688b-a870-4e78-a24f-8352bbb75965")
+	)
+	(fp_arc
+		(start -1.92 0)
+		(mid -2.060589 0.339411)
+		(end -2.4 0.48)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9889a63b-0345-440b-8424-b3f57f180e56")
+	)
+	(fp_circle
+		(center -2.45 3)
+		(end -2.42 3)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "165db9d6-c612-4107-9ecb-3ed70ccc582c")
+	)
+	(fp_circle
+		(center -1.92 1.26)
+		(end -1.64 1.26)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f34fba09-daf9-4acc-b0b4-57a2084f87d2")
+	)
+	(fp_circle
+		(center -2.16 3.81)
+		(end -2.01 3.81)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "70cf6753-b01c-4709-b125-92664c6e9326")
+	)
+	(fp_line
+		(start -2.45 -1.95)
+		(end 2.45 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "502953ee-a7f8-40a7-8c31-3c36c6a59839")
+	)
+	(fp_line
+		(start -2.45 1.95)
+		(end -2.45 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0f4d604-c544-4716-bad6-485c2be7336d")
+	)
+	(fp_line
+		(start 2.45 -1.95)
+		(end 2.45 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "369aecc2-25e7-4fcb-ac2b-6fe119c6a5a8")
+	)
+	(fp_line
+		(start 2.45 1.95)
+		(end -2.45 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0cd750fa-308f-4501-84ed-7edfff4dfcbd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "61e0d773-534d-4240-835b-8de96d54e2b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2 3 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "32578fdb-3836-4bb7-800f-8419b84bac10")
+	)
+	(pad "2" smd rect
+		(at -1 3 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "716200ca-b6b8-423f-be57-433c5113092b")
+	)
+	(pad "3" smd rect
+		(at 0 3 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f0e6d06f-84da-4c4f-a144-08be26b618a0")
+	)
+	(pad "4" smd rect
+		(at 1 3 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7d55da34-b403-42dd-9ef6-d932589b1279")
+	)
+	(pad "5" smd rect
+		(at 2 3 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e6c2984f-7e36-4702-b03d-2a3d3a860d61")
+	)
+	(pad "6" smd rect
+		(at 2 -3 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a398b9af-484c-4f99-ae83-d33e0e030652")
+	)
+	(pad "7" smd rect
+		(at 1 -3 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "480959e0-f17a-4127-8c87-7779a1516fc3")
+	)
+	(pad "8" smd rect
+		(at 0 -3 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3a1f5b3b-2286-4c31-9489-86a62b15668e")
+	)
+	(pad "9" smd rect
+		(at -1 -3 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "482cc26c-a13f-4e4b-948a-ddc3428e8af5")
+	)
+	(pad "10" smd rect
+		(at -2 -3 90)
+		(size 1.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "90926167-ca7d-43c2-9aba-94d1d01ee883")
+	)
+	(pad "11" smd rect
+		(at 0 0 180)
+		(size 3.3 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f28b595a-56a4-437e-8a41-dee5615c0cce")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Lib/easyeda2kicad.3dshapes/ESSOP-10_L4.9-W3.9-P1.0-LS6.0-TL-EP.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
