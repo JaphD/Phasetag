@@ -12162,7 +12162,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 289.56) (xy 387.35 289.56)
+			(xy 384.81 284.48) (xy 392.43 284.48)
 		)
 		(stroke
 			(width 0)
@@ -12202,7 +12202,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 289.56) (xy 359.41 289.56)
+			(xy 372.11 284.48) (xy 364.49 284.48)
 		)
 		(stroke
 			(width 0)
@@ -12462,7 +12462,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 289.56) (xy 359.41 292.1)
+			(xy 364.49 284.48) (xy 364.49 287.02)
 		)
 		(stroke
 			(width 0)
@@ -12872,7 +12872,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 284.48) (xy 367.03 284.48)
+			(xy 364.49 279.4) (xy 372.11 279.4)
 		)
 		(stroke
 			(width 0)
@@ -12962,7 +12962,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 284.48) (xy 387.35 284.48)
+			(xy 384.81 279.4) (xy 392.43 279.4)
 		)
 		(stroke
 			(width 0)
@@ -13582,7 +13582,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 287.02) (xy 367.03 287.02)
+			(xy 364.49 281.94) (xy 372.11 281.94)
 		)
 		(stroke
 			(width 0)
@@ -13772,7 +13772,7 @@
 	)
 	(wire
 		(pts
-			(xy 379.73 287.02) (xy 387.35 287.02)
+			(xy 384.81 281.94) (xy 392.43 281.94)
 		)
 		(stroke
 			(width 0)
@@ -14561,7 +14561,7 @@
 		(uuid "077c6ae9-b5a9-438c-9eb0-9bd0ac01fa38")
 	)
 	(label "NRESET"
-		(at 359.41 287.02 0)
+		(at 364.49 281.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14611,7 +14611,7 @@
 		(uuid "311c1d38-fa14-410b-bc04-a72f90439d48")
 	)
 	(label "SWO"
-		(at 381 289.56 0)
+		(at 386.08 284.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14721,7 +14721,7 @@
 		(uuid "50be1fd5-bc4e-4ff2-9008-295161dee90c")
 	)
 	(label "VOUT1"
-		(at 359.41 284.48 0)
+		(at 364.49 279.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14981,7 +14981,7 @@
 		(uuid "ed05f2e2-f4b2-4db0-806a-c76a570bfd3f")
 	)
 	(label "SWDIO"
-		(at 381 284.48 0)
+		(at 386.08 279.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14991,7 +14991,7 @@
 		(uuid "eec0f25f-e09d-4d10-9bf2-35e11a954518")
 	)
 	(label "SWDCLK"
-		(at 379.73 287.02 0)
+		(at 384.81 281.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18956,7 +18956,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Right"
 			(at 521.97 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -19038,7 +19038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Left"
 			(at 521.97 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -23592,7 +23592,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 372.11 287.02 0)
+		(at 377.19 281.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23602,7 +23602,7 @@
 		(dnp no)
 		(uuid "bc194096-eb6e-4714-addb-3489842d80dd")
 		(property "Reference" "J1"
-			(at 372.618 281.178 0)
+			(at 377.698 276.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23612,7 +23612,7 @@
 			)
 		)
 		(property "Value" "Conn_02x03_Odd_Even"
-			(at 374.904 293.116 0)
+			(at 379.984 288.036 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23622,7 +23622,7 @@
 			)
 		)
 		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
-			(at 372.11 287.02 0)
+			(at 377.19 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23633,7 +23633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 372.11 287.02 0)
+			(at 377.19 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23644,7 +23644,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 372.11 287.02 0)
+			(at 377.19 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24869,7 +24869,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 359.41 292.1 0)
+		(at 364.49 287.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24880,7 +24880,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc217d84-06bf-4110-ad09-bab429684440")
 		(property "Reference" "#PWR029"
-			(at 359.41 298.45 0)
+			(at 364.49 293.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24891,7 +24891,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 359.41 297.18 0)
+			(at 364.49 292.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24901,7 +24901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 359.41 292.1 0)
+			(at 364.49 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24912,7 +24912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 359.41 292.1 0)
+			(at 364.49 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24923,7 +24923,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 359.41 292.1 0)
+			(at 364.49 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
