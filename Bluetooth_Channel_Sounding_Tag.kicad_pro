@@ -585,7 +585,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Mechanical/Bluetooth_Channel_Sounding_Tag.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

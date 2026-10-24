@@ -8194,7 +8194,7 @@
 		(uuid "6be7e5ed-9e27-4426-88d5-1bb74bf1b298")
 		(at 130.5 90.8)
 		(property "Reference" "L3"
-			(at -0.05 -2.55 90)
+			(at 0 -2.55 90)
 			(layer "F.SilkS")
 			(uuid "e2e2cf82-8ec7-405d-a2c0-de3e7fd3c24e")
 			(effects
@@ -8777,7 +8777,7 @@
 	(footprint "BCS:CRYSTAL-SMD_4P-L2.0-W1.6-BL"
 		(layer "F.Cu")
 		(uuid "7c7a5609-0691-4a46-9859-3e78cd5efa00")
-		(at 132.45 88.85 -90)
+		(at 132.55 88.85 -90)
 		(property "Reference" "X1"
 			(at -1.3 -2.65 180)
 			(layer "F.SilkS")
@@ -13028,7 +13028,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
-			(at 0.1 1.7 0)
+			(at 0.1 1.8 0)
 			(layer "F.SilkS")
 			(uuid "f7c92a88-4ffe-4e30-909f-469ed1512213")
 			(effects
@@ -14240,7 +14240,7 @@
 		(uuid "b38452e1-521b-4e55-830b-81c6990ee6c5")
 		(at 125.5 92.8)
 		(property "Reference" "U2"
-			(at -2.45 4.225 0)
+			(at 3.1 3.9 0)
 			(layer "F.SilkS")
 			(uuid "c9715502-52b5-42bd-b333-0b3d5b5fb483")
 			(effects
@@ -19710,6 +19710,82 @@
 				(thickness 0.1)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "52f26b3e-1250-49b1-8732-83cb50bf2366")
+		(pts
+			(xy 110.5 118.5) (xy 145.5 118.5)
+		)
+		(height 5.4)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "35"
+			(at 128 122.75 0)
+			(layer "Dwgs.User")
+			(uuid "52f26b3e-1250-49b1-8732-83cb50bf2366")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "871f8204-8180-4386-8ab4-ae3f22835f92")
+		(pts
+			(xy 142.1 77.9) (xy 142.1 120.4)
+		)
+		(height 7)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "42.5"
+			(at 147.95 99.15 90)
+			(layer "Dwgs.User")
+			(uuid "871f8204-8180-4386-8ab4-ae3f22835f92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(segment
