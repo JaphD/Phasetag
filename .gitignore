@@ -29,6 +29,7 @@ fp-info-cache
 /tmp/
 /.history/
 *.md
+!/README.md
 *.tmp
 *.temp
 
